@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_hltekor.mk
+    $(LOCAL_DIR)/revengeos_hltekor.mk

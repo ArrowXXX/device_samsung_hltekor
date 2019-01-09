@@ -16,11 +16,12 @@
 # Inherit from hltekor device
 $(call inherit-product, device/samsung/hltekor/full_hlte.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common RevengeOS stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/revengeos/config/gsm.mk)
 
 # Include Bootanimation configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_DEVICE := hltekor
-PRODUCT_NAME :=arrow_hltekor
+PRODUCT_NAME := revengeos_hltekor
